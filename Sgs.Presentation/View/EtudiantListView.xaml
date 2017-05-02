@@ -31,6 +31,11 @@
                 <Button Grid.Column="4" Content="-"></Button>
             </Grid>
         </Border>
+        <Border Grid.Row="2" Padding="2" BorderBrush="Red" BorderThickness="1">
+            <ListView x:Name="EtudiantsList">
+                
+            </ListView>
+        </Border>
         
         
             
