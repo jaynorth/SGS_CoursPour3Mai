@@ -43,14 +43,14 @@
             <!--Zone Etudiants list View-->
             <Border Grid.Column="0" Width="170"  Style="{StaticResource MainBorderStyle}">
                 <ContentControl>
-                    <views:EtudiantListView></views:EtudiantListView>
+                    <views:EtudiantListView x:Name="MasterEtudiantsView" MouseDoubleClick="MasterEtudiantsView_MouseDoubleClick" ></views:EtudiantListView>
                 </ContentControl>
             </Border>
 
             <!--Zone Details Etudiant-->
             <Border Grid.Column="2" BorderBrush="Black" BorderThickness="1"  Padding="10" Style="{StaticResource MainBorderStyle}">
                 <ContentControl>
-                    <views:EtudiantDetailView x:Name="EtudiantDetail"></views:EtudiantDetailView>
+                    <views:EtudiantDetailView x:Name="EtudiantDetail" ></views:EtudiantDetailView>
                 </ContentControl>
             </Border>
         </Grid>

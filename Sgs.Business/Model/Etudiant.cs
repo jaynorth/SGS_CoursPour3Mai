@@ -29,7 +29,7 @@ namespace Sgs.Business.Model
 
         public override string ToString()
         {
-            return string.Format("{0} {1}", Prenom, Nom);
+            return string.Format("{0} {1}", Prenom, Nom); // Si l'on ne le fait pas ça retourne SGS.Business.Model.Etudiant
         }
 
 

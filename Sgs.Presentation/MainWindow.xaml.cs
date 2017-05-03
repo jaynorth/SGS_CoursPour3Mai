@@ -51,5 +51,14 @@ namespace Sgs.Presentation
                 e.Cancel = true;
             }
         }
+
+
+
+        private void MasterEtudiantsView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if ((sender == null) || !(sender is EtudiantListView))
+                return;
+            EtudiantDetail.DataContext = MasterEtudiantsView.EtudiantsList.SelectedItem;
+        }
     }
 }
