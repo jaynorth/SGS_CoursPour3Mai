@@ -44,5 +44,40 @@
                 </Binding>
             </TextBox.Text>
         </TextBox>
+        <!-- Adresse -->
+        <Label Grid.Row="4" Grid.Column="0" Content="Adresse: " HorizontalAlignment="Left" Target="{Binding ElementName=Rue}"></Label>
+        <TextBox x:Name="Rue" Grid.Row="5" Grid.RowSpan="3" >
+            <TextBox.Text>
+                <Binding Path="Rue" Mode="TwoWay" >
+
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+
+        <TextBox x:Name="No" Grid.Row="5" Grid.Column="4" >
+            <TextBox.Text>
+                <Binding Path="RueNum" Mode="TwoWay" >
+
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <!-- Separateur -->
+        <Label Grid.Row="6" Height="4"></Label>
+        <TextBox x:Name="Npa" Grid.Row="7" Grid.Column="0" >
+            <TextBox.Text>
+                <Binding Path="Npa" Mode="TwoWay" >
+
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+
+        <TextBox x:Name="Localite" Grid.Row="7" Grid.ColumnSpan="3" >
+            <TextBox.Text>
+                <Binding Path="Localite" Mode="TwoWay" >
+
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+
     </Grid>
 </UserControl>

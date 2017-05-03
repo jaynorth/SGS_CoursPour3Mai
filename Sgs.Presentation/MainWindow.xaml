@@ -49,7 +49,9 @@
 
             <!--Zone Details Etudiant-->
             <Border Grid.Column="2" BorderBrush="Black" BorderThickness="1"  Style="{StaticResource MainBorderStyle}">
-
+                <ContentControl>
+                    <views:EtudiantDetailView x:Name="EtudiantDetail"></views:EtudiantDetailView>
+                </ContentControl>
             </Border>
         </Grid>
     </DockPanel>
