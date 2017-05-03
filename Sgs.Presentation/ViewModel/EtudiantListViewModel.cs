@@ -31,7 +31,7 @@ namespace Sgs.Presentation.ViewModel
                 _etudiants = value;
 
             }
-      }
+        }
 
     }
 }
