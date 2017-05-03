@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="Mvvm\BaseViewModel.cs" />
     <Compile Include="Mvvm\ExecutableCommand.cs" />
+    <Compile Include="ViewModel\EtudiantListViewModel.cs" />
     <Compile Include="View\AboutView.xaml.cs">
       <DependentUpon>AboutView.xaml</DependentUpon>
     </Compile>
@@ -130,7 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Print\" />
-    <Folder Include="ViewModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
