@@ -48,7 +48,7 @@
             </Border>
 
             <!--Zone Details Etudiant-->
-            <Border Grid.Column="2" BorderBrush="Black" BorderThickness="1"  Style="{StaticResource MainBorderStyle}">
+            <Border Grid.Column="2" BorderBrush="Black" BorderThickness="1"  Padding="10" Style="{StaticResource MainBorderStyle}">
                 <ContentControl>
                     <views:EtudiantDetailView x:Name="EtudiantDetail"></views:EtudiantDetailView>
                 </ContentControl>
