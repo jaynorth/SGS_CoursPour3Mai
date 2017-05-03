@@ -27,6 +27,11 @@ namespace Sgs.Business.Model
         public string Npa { get; set; }
         public string Localite { get; set; }
 
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", Prenom, Nom);
+        }
+
 
     }
 }

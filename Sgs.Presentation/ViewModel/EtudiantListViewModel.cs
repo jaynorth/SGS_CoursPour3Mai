@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sgs.Business.Model;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Sgs.Presentation.ViewModel
 {
     public class EtudiantListViewModel
     {
-        private ObservableCollection<Etudiant> _etudiants;
+        
 
         public EtudiantListViewModel()
         {
@@ -20,7 +21,7 @@ namespace Sgs.Presentation.ViewModel
 
      
         }
-
+        private ObservableCollection<Etudiant> _etudiants;
         public ObservableCollection<Etudiant> Etudiants
         {
             get { return _etudiants; }
@@ -30,6 +31,7 @@ namespace Sgs.Presentation.ViewModel
                 _etudiants = value;
 
             }
+      }
 
     }
 }
