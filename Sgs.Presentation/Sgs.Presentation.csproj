@@ -60,6 +60,9 @@
     <Compile Include="View\AboutView.xaml.cs">
       <DependentUpon>AboutView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\EtudiantDetailView.xaml.cs">
+      <DependentUpon>EtudiantDetailView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\EtudiantListView.xaml.cs">
       <DependentUpon>EtudiantListView.xaml</DependentUpon>
     </Compile>
@@ -80,6 +83,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\AboutView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\EtudiantDetailView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

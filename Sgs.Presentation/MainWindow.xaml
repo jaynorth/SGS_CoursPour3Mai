@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sgs.Presentation"
+        xmlns:views="clr-namespace:Sgs.Presentation.View"
         mc:Ignorable="d"
         Title="SGS (Système de Gestion Scolaire)" Height="507.777" Width="692.778" Closing="Window_Closing">
 
@@ -41,7 +42,9 @@
 
             <!--Zone Etudiants list View-->
             <Border Grid.Column="0" Width="170"  Style="{StaticResource MainBorderStyle}">
-
+                <ContentControl>
+                    <views:EtudiantListView></views:EtudiantListView>
+                </ContentControl>
             </Border>
 
             <!--Zone Details Etudiant-->
